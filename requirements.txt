@@ -1,0 +1,4 @@
+# Dev/test dependencies for the Python pipeline. The pipeline itself uses
+# only the standard library (TF-IDF is hand-rolled in matching.py), so it
+# runs anywhere Python 3.10+ is installed.
+pytest>=8.0

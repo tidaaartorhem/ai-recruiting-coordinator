@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+node_modules/
+dist/
+web/dist/
+web/public/data/*.json
+!web/public/data/.gitkeep
+.DS_Store
+.venv/
