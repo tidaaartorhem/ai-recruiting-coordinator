@@ -9,3 +9,10 @@ web/public/data/*.json
 !web/public/data/.gitkeep
 .DS_Store
 .venv/
+# tsc/vite/firebase local artifacts
+web/src/**/*.d.ts
+web/*.d.ts
+web/vite.config.js
+*.tsbuildinfo
+.firebase/
+.vite/
